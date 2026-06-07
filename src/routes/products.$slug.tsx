@@ -51,7 +51,8 @@ function ProductPage() {
   const features: string[] = Array.isArray(product.features) ? product.features : [];
   const formattedPrice = new Intl.NumberFormat("en-US", {
     style: "currency",
-    currency: "USD",
+    currency: "PKR",
+    maximumFractionDigits: 0,
   }).format(product.price / 100);
 
   const handleAddToCart = () => {
