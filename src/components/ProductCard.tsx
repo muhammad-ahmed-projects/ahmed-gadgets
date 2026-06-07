@@ -16,7 +16,8 @@ export function ProductCard({ product }: { product: Product }) {
   const { addItem } = useCart();
   const formattedPrice = new Intl.NumberFormat("en-US", {
     style: "currency",
-    currency: "USD",
+    currency: "PKR",
+    maximumFractionDigits: 0,
   }).format(product.price / 100);
 
   return (

@@ -17,7 +17,7 @@ export const Route = createFileRoute("/faq")({
 const faqs = [
   {
     q: "How long does shipping take?",
-    a: "Most orders ship within 1–2 business days and arrive in 3–7 days depending on your location. Free shipping on orders over $50.",
+    a: "Most orders ship within 1–2 business days and arrive in 3–7 days depending on your location. Free shipping on orders over PKR 5,000.",
   },
   {
     q: "What is your return policy?",

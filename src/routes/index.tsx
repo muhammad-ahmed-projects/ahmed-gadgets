@@ -23,7 +23,7 @@ export const Route = createFileRoute("/")({
 });
 
 const features = [
-  { icon: Truck, title: "Free shipping", desc: "On all orders over $50" },
+  { icon: Truck, title: "Free shipping", desc: "On all orders over PKR 5,000" },
   { icon: ShieldCheck, title: "2-year warranty", desc: "Quality you can trust" },
   { icon: Leaf, title: "Sustainable", desc: "Eco-conscious materials" },
   { icon: Headphones, title: "Support 24/7", desc: "We're here to help" },

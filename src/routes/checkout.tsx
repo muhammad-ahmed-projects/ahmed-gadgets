@@ -14,7 +14,7 @@ export const Route = createFileRoute("/checkout")({
 });
 
 function formatPrice(cents: number) {
-  return new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(cents / 100);
+  return new Intl.NumberFormat("en-PK", { style: "currency", currency: "PKR", maximumFractionDigits: 0 }).format(cents / 100);
 }
 
 function CheckoutPage() {
